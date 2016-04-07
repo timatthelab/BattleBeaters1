@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B00A6481BC1AE5B0001690C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B00A6471BC1AE5B0001690C /* SettingsViewController.m */; };
+		2B138D9E1BD2825300F77D47 /* SHBeaterViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B138D9D1BD2825300F77D47 /* SHBeaterViewButton.m */; };
+		2B7843481BCB0B5B00D46A2B /* beater_eyebrows_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78431E1BCB0B5B00D46A2B /* beater_eyebrows_00.png */; };
+		2B7843491BCB0B5B00D46A2B /* beater_eyebrows_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78431F1BCB0B5B00D46A2B /* beater_eyebrows_01.png */; };
+		2B78434A1BCB0B5B00D46A2B /* beater_eyebrows_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843201BCB0B5B00D46A2B /* beater_eyebrows_02.png */; };
+		2B78434B1BCB0B5B00D46A2B /* beater_eyebrows_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843211BCB0B5B00D46A2B /* beater_eyebrows_03.png */; };
+		2B78434C1BCB0B5B00D46A2B /* beater_eyebrows_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843221BCB0B5B00D46A2B /* beater_eyebrows_04.png */; };
+		2B78434D1BCB0B5B00D46A2B /* beater_eyes_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843231BCB0B5B00D46A2B /* beater_eyes_00.png */; };
+		2B78434E1BCB0B5B00D46A2B /* beater_eyes_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843241BCB0B5B00D46A2B /* beater_eyes_01.png */; };
+		2B78434F1BCB0B5B00D46A2B /* beater_eyes_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843251BCB0B5B00D46A2B /* beater_eyes_02.png */; };
+		2B7843501BCB0B5B00D46A2B /* beater_eyes_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843261BCB0B5B00D46A2B /* beater_eyes_03.png */; };
+		2B7843511BCB0B5B00D46A2B /* beater_eyes_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843271BCB0B5B00D46A2B /* beater_eyes_04.png */; };
+		2B7843521BCB0B5B00D46A2B /* beater_eyes_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843281BCB0B5B00D46A2B /* beater_eyes_05.png */; };
+		2B7843531BCB0B5B00D46A2B /* beater_eyes_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843291BCB0B5B00D46A2B /* beater_eyes_06.png */; };
+		2B7843541BCB0B5B00D46A2B /* beater_hair_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78432A1BCB0B5B00D46A2B /* beater_hair_00.png */; };
+		2B7843551BCB0B5B00D46A2B /* beater_hair_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78432B1BCB0B5B00D46A2B /* beater_hair_01.png */; };
+		2B7843561BCB0B5B00D46A2B /* beater_hair_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78432C1BCB0B5B00D46A2B /* beater_hair_02.png */; };
+		2B7843571BCB0B5B00D46A2B /* beater_hair_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78432D1BCB0B5B00D46A2B /* beater_hair_03.png */; };
+		2B7843581BCB0B5B00D46A2B /* beater_hair_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78432E1BCB0B5B00D46A2B /* beater_hair_04.png */; };
+		2B7843591BCB0B5B00D46A2B /* beater_hair_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78432F1BCB0B5B00D46A2B /* beater_hair_05.png */; };
+		2B78435A1BCB0B5B00D46A2B /* beater_hair_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843301BCB0B5B00D46A2B /* beater_hair_06.png */; };
+		2B78435B1BCB0B5B00D46A2B /* beater_hair_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843311BCB0B5B00D46A2B /* beater_hair_07.png */; };
+		2B78435C1BCB0B5B00D46A2B /* beater_hair_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843321BCB0B5B00D46A2B /* beater_hair_08.png */; };
+		2B78435D1BCB0B5B00D46A2B /* beater_hair_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843331BCB0B5B00D46A2B /* beater_hair_09.png */; };
+		2B78435E1BCB0B5B00D46A2B /* beater_head_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843341BCB0B5B00D46A2B /* beater_head_00.png */; };
+		2B78435F1BCB0B5B00D46A2B /* beater_head_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843351BCB0B5B00D46A2B /* beater_head_01.png */; };
+		2B7843601BCB0B5B00D46A2B /* beater_head_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843361BCB0B5B00D46A2B /* beater_head_02.png */; };
+		2B7843611BCB0B5B00D46A2B /* beater_head_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843371BCB0B5B00D46A2B /* beater_head_03.png */; };
+		2B7843621BCB0B5B00D46A2B /* beater_head_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843381BCB0B5B00D46A2B /* beater_head_04.png */; };
+		2B7843631BCB0B5B00D46A2B /* beater_head_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843391BCB0B5B00D46A2B /* beater_head_05.png */; };
+		2B7843641BCB0B5B00D46A2B /* beater_head_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78433A1BCB0B5B00D46A2B /* beater_head_06.png */; };
+		2B7843651BCB0B5B00D46A2B /* beater_head_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78433B1BCB0B5B00D46A2B /* beater_head_07.png */; };
+		2B7843661BCB0B5B00D46A2B /* beater_head_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78433C1BCB0B5B00D46A2B /* beater_head_08.png */; };
+		2B7843671BCB0B5B00D46A2B /* beater_head_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78433D1BCB0B5B00D46A2B /* beater_head_09.png */; };
+		2B7843681BCB0B5B00D46A2B /* beater_mouth_00.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78433E1BCB0B5B00D46A2B /* beater_mouth_00.png */; };
+		2B7843691BCB0B5B00D46A2B /* beater_mouth_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B78433F1BCB0B5B00D46A2B /* beater_mouth_01.png */; };
+		2B78436A1BCB0B5B00D46A2B /* beater_mouth_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843401BCB0B5B00D46A2B /* beater_mouth_02.png */; };
+		2B78436B1BCB0B5B00D46A2B /* beater_mouth_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843411BCB0B5B00D46A2B /* beater_mouth_03.png */; };
+		2B78436C1BCB0B5B00D46A2B /* beater_mouth_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843421BCB0B5B00D46A2B /* beater_mouth_04.png */; };
+		2B78436D1BCB0B5B00D46A2B /* beater_mouth_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843431BCB0B5B00D46A2B /* beater_mouth_05.png */; };
+		2B78436E1BCB0B5B00D46A2B /* beater_mouth_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843441BCB0B5B00D46A2B /* beater_mouth_06.png */; };
+		2B78436F1BCB0B5B00D46A2B /* beater_mouth_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843451BCB0B5B00D46A2B /* beater_mouth_07.png */; };
+		2B7843701BCB0B5B00D46A2B /* beater_mouth_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843461BCB0B5B00D46A2B /* beater_mouth_08.png */; };
+		2B7843711BCB0B5B00D46A2B /* beater_mouth_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843471BCB0B5B00D46A2B /* beater_mouth_09.png */; };
+		2B7843781BCB0F7E00D46A2B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7843771BCB0F7E00D46A2B /* Icon.png */; };
+		2B7A5EAE1C077F8F00CAE6D1 /* SHBeater.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7A5EAD1C077F8F00CAE6D1 /* SHBeater.m */; };
+		2B9435CD1BC92B6700C60713 /* EditBeaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9435CC1BC92B6700C60713 /* EditBeaterViewController.m */; };
+		2BB1EC7E1C36CD660059F3D6 /* SHWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB1EC7D1C36CD660059F3D6 /* SHWeapon.m */; };
+		2BB1EC811C36CD790059F3D6 /* SHDefense.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB1EC801C36CD790059F3D6 /* SHDefense.m */; };
+		2BF46F981C0B8F1F00FD8DE2 /* BeaterDefenses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BF46F941C0B8F1F00FD8DE2 /* BeaterDefenses.plist */; };
+		2BF46F991C0B8F1F00FD8DE2 /* BeaterWeapons.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BF46F951C0B8F1F00FD8DE2 /* BeaterWeapons.plist */; };
+		2BF46F9A1C0B8F1F00FD8DE2 /* inAppPurchases.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BF46F961C0B8F1F00FD8DE2 /* inAppPurchases.plist */; };
+		2BF46F9B1C0B8F1F00FD8DE2 /* ProductIDs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BF46F971C0B8F1F00FD8DE2 /* ProductIDs.plist */; };
+		2BFB11381B5F544E0068E6A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB11371B5F544E0068E6A3 /* main.m */; };
+		2BFB113B1B5F544E0068E6A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB113A1B5F544E0068E6A3 /* AppDelegate.m */; };
+		2BFB113E1B5F544E0068E6A3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB113D1B5F544E0068E6A3 /* FirstViewController.m */; };
+		2BFB11411B5F544E0068E6A3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB11401B5F544E0068E6A3 /* SecondViewController.m */; };
+		2BFB11441B5F544E0068E6A3 /* Main-v6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFB11421B5F544E0068E6A3 /* Main-v6.storyboard */; };
+		2BFB11461B5F544E0068E6A3 /* bbicon0144.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFB11451B5F544E0068E6A3 /* bbicon0144.png */; };
+		2BFB11491B5F544E0068E6A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFB11471B5F544E0068E6A3 /* LaunchScreen.xib */; };
+		2BFB11551B5F544E0068E6A3 /* Battle_BeaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFB11541B5F544E0068E6A3 /* Battle_BeaterTests.m */; };
+		2BFB115F1B5F54990068E6A3 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFB115E1B5F54990068E6A3 /* GameKit.framework */; };
+		2BFB11611B5F54FB0068E6A3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BFB11601B5F54FB0068E6A3 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BFB114F1B5F544E0068E6A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BFB112A1B5F544E0068E6A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BFB11311B5F544E0068E6A3;
+			remoteInfo = "Battle-Beater";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B00A6461BC1AE5B0001690C /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		2B00A6471BC1AE5B0001690C /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		2B138D9C1BD2825300F77D47 /* SHBeaterViewButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBeaterViewButton.h; sourceTree = "<group>"; };
+		2B138D9D1BD2825300F77D47 /* SHBeaterViewButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBeaterViewButton.m; sourceTree = "<group>"; };
+		2B6FCDF51B7A1B9400458BF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "en.lproj/Main-v6.storyboard"; sourceTree = "<group>"; };
+		2B78431E1BCB0B5B00D46A2B /* beater_eyebrows_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_eyebrows_00.png; path = BeaterFeatures/beater_eyebrows_00.png; sourceTree = "<group>"; };
+		2B78431F1BCB0B5B00D46A2B /* beater_eyebrows_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_eyebrows_01.png; path = BeaterFeatures/beater_eyebrows_01.png; sourceTree = "<group>"; };
+		2B7843201BCB0B5B00D46A2B /* beater_eyebrows_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_eyebrows_02.png; path = BeaterFeatures/beater_eyebrows_02.png; sourceTree = "<group>"; };
+		2B7843211BCB0B5B00D46A2B /* beater_eyebrows_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_eyebrows_03.png; path = BeaterFeatures/beater_eyebrows_03.png; sourceTree = "<group>"; };
+		2B7843221BCB0B5B00D46A2B /* beater_eyebrows_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_eyebrows_04.png; path = BeaterFeatures/beater_eyebrows_04.png; sourceTree = "<group>"; };
+		2B7843231BCB0B5B00D46A2B /* beater_eyes_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_eyes_00.png; path = BeaterFeatures/beater_eyes_00.png; sourceTree = "<group>"; };
+		2B7843241BCB0B5B00D46A2B /* beater_eyes_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_eyes_01.png; path = BeaterFeatures/beater_eyes_01.png; sourceTree = "<group>"; };
+		2B7843251BCB0B5B00D46A2B /* beater_eyes_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_eyes_02.png; path = BeaterFeatures/beater_eyes_02.png; sourceTree = "<group>"; };
+		2B7843261BCB0B5B00D46A2B /* beater_eyes_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_eyes_03.png; path = BeaterFeatures/beater_eyes_03.png; sourceTree = "<group>"; };
+		2B7843271BCB0B5B00D46A2B /* beater_eyes_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_eyes_04.png; path = BeaterFeatures/beater_eyes_04.png; sourceTree = "<group>"; };
+		2B7843281BCB0B5B00D46A2B /* beater_eyes_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_eyes_05.png; path = BeaterFeatures/beater_eyes_05.png; sourceTree = "<group>"; };
+		2B7843291BCB0B5B00D46A2B /* beater_eyes_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_eyes_06.png; path = BeaterFeatures/beater_eyes_06.png; sourceTree = "<group>"; };
+		2B78432A1BCB0B5B00D46A2B /* beater_hair_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_hair_00.png; path = BeaterFeatures/beater_hair_00.png; sourceTree = "<group>"; };
+		2B78432B1BCB0B5B00D46A2B /* beater_hair_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_hair_01.png; path = BeaterFeatures/beater_hair_01.png; sourceTree = "<group>"; };
+		2B78432C1BCB0B5B00D46A2B /* beater_hair_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_hair_02.png; path = BeaterFeatures/beater_hair_02.png; sourceTree = "<group>"; };
+		2B78432D1BCB0B5B00D46A2B /* beater_hair_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_hair_03.png; path = BeaterFeatures/beater_hair_03.png; sourceTree = "<group>"; };
+		2B78432E1BCB0B5B00D46A2B /* beater_hair_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_hair_04.png; path = BeaterFeatures/beater_hair_04.png; sourceTree = "<group>"; };
+		2B78432F1BCB0B5B00D46A2B /* beater_hair_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_hair_05.png; path = BeaterFeatures/beater_hair_05.png; sourceTree = "<group>"; };
+		2B7843301BCB0B5B00D46A2B /* beater_hair_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_hair_06.png; path = BeaterFeatures/beater_hair_06.png; sourceTree = "<group>"; };
+		2B7843311BCB0B5B00D46A2B /* beater_hair_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_hair_07.png; path = BeaterFeatures/beater_hair_07.png; sourceTree = "<group>"; };
+		2B7843321BCB0B5B00D46A2B /* beater_hair_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_hair_08.png; path = BeaterFeatures/beater_hair_08.png; sourceTree = "<group>"; };
+		2B7843331BCB0B5B00D46A2B /* beater_hair_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_hair_09.png; path = BeaterFeatures/beater_hair_09.png; sourceTree = "<group>"; };
+		2B7843341BCB0B5B00D46A2B /* beater_head_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_head_00.png; path = BeaterFeatures/beater_head_00.png; sourceTree = "<group>"; };
+		2B7843351BCB0B5B00D46A2B /* beater_head_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_head_01.png; path = BeaterFeatures/beater_head_01.png; sourceTree = "<group>"; };
+		2B7843361BCB0B5B00D46A2B /* beater_head_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_head_02.png; path = BeaterFeatures/beater_head_02.png; sourceTree = "<group>"; };
+		2B7843371BCB0B5B00D46A2B /* beater_head_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_head_03.png; path = BeaterFeatures/beater_head_03.png; sourceTree = "<group>"; };
+		2B7843381BCB0B5B00D46A2B /* beater_head_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_head_04.png; path = BeaterFeatures/beater_head_04.png; sourceTree = "<group>"; };
+		2B7843391BCB0B5B00D46A2B /* beater_head_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_head_05.png; path = BeaterFeatures/beater_head_05.png; sourceTree = "<group>"; };
+		2B78433A1BCB0B5B00D46A2B /* beater_head_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_head_06.png; path = BeaterFeatures/beater_head_06.png; sourceTree = "<group>"; };
+		2B78433B1BCB0B5B00D46A2B /* beater_head_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_head_07.png; path = BeaterFeatures/beater_head_07.png; sourceTree = "<group>"; };
+		2B78433C1BCB0B5B00D46A2B /* beater_head_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_head_08.png; path = BeaterFeatures/beater_head_08.png; sourceTree = "<group>"; };
+		2B78433D1BCB0B5B00D46A2B /* beater_head_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_head_09.png; path = BeaterFeatures/beater_head_09.png; sourceTree = "<group>"; };
+		2B78433E1BCB0B5B00D46A2B /* beater_mouth_00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_mouth_00.png; path = BeaterFeatures/beater_mouth_00.png; sourceTree = "<group>"; };
+		2B78433F1BCB0B5B00D46A2B /* beater_mouth_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_mouth_01.png; path = BeaterFeatures/beater_mouth_01.png; sourceTree = "<group>"; };
+		2B7843401BCB0B5B00D46A2B /* beater_mouth_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_mouth_02.png; path = BeaterFeatures/beater_mouth_02.png; sourceTree = "<group>"; };
+		2B7843411BCB0B5B00D46A2B /* beater_mouth_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_mouth_03.png; path = BeaterFeatures/beater_mouth_03.png; sourceTree = "<group>"; };
+		2B7843421BCB0B5B00D46A2B /* beater_mouth_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_mouth_04.png; path = BeaterFeatures/beater_mouth_04.png; sourceTree = "<group>"; };
+		2B7843431BCB0B5B00D46A2B /* beater_mouth_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_mouth_05.png; path = BeaterFeatures/beater_mouth_05.png; sourceTree = "<group>"; };
+		2B7843441BCB0B5B00D46A2B /* beater_mouth_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_mouth_06.png; path = BeaterFeatures/beater_mouth_06.png; sourceTree = "<group>"; };
+		2B7843451BCB0B5B00D46A2B /* beater_mouth_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_mouth_07.png; path = BeaterFeatures/beater_mouth_07.png; sourceTree = "<group>"; };
+		2B7843461BCB0B5B00D46A2B /* beater_mouth_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_mouth_08.png; path = BeaterFeatures/beater_mouth_08.png; sourceTree = "<group>"; };
+		2B7843471BCB0B5B00D46A2B /* beater_mouth_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = beater_mouth_09.png; path = BeaterFeatures/beater_mouth_09.png; sourceTree = "<group>"; };
+		2B7843771BCB0F7E00D46A2B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2B7A5EAC1C077F8F00CAE6D1 /* SHBeater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBeater.h; sourceTree = "<group>"; };
+		2B7A5EAD1C077F8F00CAE6D1 /* SHBeater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBeater.m; sourceTree = "<group>"; };
+		2B9435CB1BC92B6700C60713 /* EditBeaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditBeaterViewController.h; sourceTree = "<group>"; };
+		2B9435CC1BC92B6700C60713 /* EditBeaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditBeaterViewController.m; sourceTree = "<group>"; };
+		2BB1EC7C1C36CD660059F3D6 /* SHWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHWeapon.h; sourceTree = "<group>"; };
+		2BB1EC7D1C36CD660059F3D6 /* SHWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHWeapon.m; sourceTree = "<group>"; };
+		2BB1EC7F1C36CD790059F3D6 /* SHDefense.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDefense.h; sourceTree = "<group>"; };
+		2BB1EC801C36CD790059F3D6 /* SHDefense.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDefense.m; sourceTree = "<group>"; };
+		2BF46F941C0B8F1F00FD8DE2 /* BeaterDefenses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BeaterDefenses.plist; path = PLists/BeaterDefenses.plist; sourceTree = "<group>"; };
+		2BF46F951C0B8F1F00FD8DE2 /* BeaterWeapons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BeaterWeapons.plist; path = PLists/BeaterWeapons.plist; sourceTree = "<group>"; };
+		2BF46F961C0B8F1F00FD8DE2 /* inAppPurchases.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = inAppPurchases.plist; path = PLists/inAppPurchases.plist; sourceTree = "<group>"; };
+		2BF46F971C0B8F1F00FD8DE2 /* ProductIDs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ProductIDs.plist; path = PLists/ProductIDs.plist; sourceTree = "<group>"; };
+		2BFB11321B5F544E0068E6A3 /* Battle-Beater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Battle-Beater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFB11361B5F544E0068E6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFB11371B5F544E0068E6A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BFB11391B5F544E0068E6A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BFB113A1B5F544E0068E6A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BFB113C1B5F544E0068E6A3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2BFB113D1B5F544E0068E6A3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2BFB113F1B5F544E0068E6A3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2BFB11401B5F544E0068E6A3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2BFB11451B5F544E0068E6A3 /* bbicon0144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bbicon0144.png; sourceTree = "<group>"; };
+		2BFB11481B5F544E0068E6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2BFB114E1B5F544E0068E6A3 /* Battle-BeaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Battle-BeaterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFB11531B5F544E0068E6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BFB11541B5F544E0068E6A3 /* Battle_BeaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Battle_BeaterTests.m; sourceTree = "<group>"; };
+		2BFB115E1B5F54990068E6A3 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		2BFB11601B5F54FB0068E6A3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BFB112F1B5F544E0068E6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFB115F1B5F54990068E6A3 /* GameKit.framework in Frameworks */,
+				2BFB11611B5F54FB0068E6A3 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFB114B1B5F544E0068E6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B138D9B1BD2820600F77D47 /* UI Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B9435CB1BC92B6700C60713 /* EditBeaterViewController.h */,
+				2B9435CC1BC92B6700C60713 /* EditBeaterViewController.m */,
+				2B138D9C1BD2825300F77D47 /* SHBeaterViewButton.h */,
+				2B138D9D1BD2825300F77D47 /* SHBeaterViewButton.m */,
+			);
+			name = "UI Classes";
+			sourceTree = "<group>";
+		};
+		2B7843721BCB0B6500D46A2B /* Eyebrows */ = {
+			isa = PBXGroup;
+			children = (
+				2B78431E1BCB0B5B00D46A2B /* beater_eyebrows_00.png */,
+				2B78431F1BCB0B5B00D46A2B /* beater_eyebrows_01.png */,
+				2B7843201BCB0B5B00D46A2B /* beater_eyebrows_02.png */,
+				2B7843211BCB0B5B00D46A2B /* beater_eyebrows_03.png */,
+				2B7843221BCB0B5B00D46A2B /* beater_eyebrows_04.png */,
+			);
+			name = Eyebrows;
+			sourceTree = "<group>";
+		};
+		2B7843731BCB0B7300D46A2B /* Eyes */ = {
+			isa = PBXGroup;
+			children = (
+				2B7843231BCB0B5B00D46A2B /* beater_eyes_00.png */,
+				2B7843241BCB0B5B00D46A2B /* beater_eyes_01.png */,
+				2B7843251BCB0B5B00D46A2B /* beater_eyes_02.png */,
+				2B7843261BCB0B5B00D46A2B /* beater_eyes_03.png */,
+				2B7843271BCB0B5B00D46A2B /* beater_eyes_04.png */,
+				2B7843281BCB0B5B00D46A2B /* beater_eyes_05.png */,
+				2B7843291BCB0B5B00D46A2B /* beater_eyes_06.png */,
+			);
+			name = Eyes;
+			sourceTree = "<group>";
+		};
+		2B7843741BCB0B7D00D46A2B /* Hair */ = {
+			isa = PBXGroup;
+			children = (
+				2B78432A1BCB0B5B00D46A2B /* beater_hair_00.png */,
+				2B78432B1BCB0B5B00D46A2B /* beater_hair_01.png */,
+				2B78432C1BCB0B5B00D46A2B /* beater_hair_02.png */,
+				2B78432D1BCB0B5B00D46A2B /* beater_hair_03.png */,
+				2B78432E1BCB0B5B00D46A2B /* beater_hair_04.png */,
+				2B78432F1BCB0B5B00D46A2B /* beater_hair_05.png */,
+				2B7843301BCB0B5B00D46A2B /* beater_hair_06.png */,
+				2B7843311BCB0B5B00D46A2B /* beater_hair_07.png */,
+				2B7843321BCB0B5B00D46A2B /* beater_hair_08.png */,
+				2B7843331BCB0B5B00D46A2B /* beater_hair_09.png */,
+			);
+			name = Hair;
+			sourceTree = "<group>";
+		};
+		2B7843751BCB0B8A00D46A2B /* Heads */ = {
+			isa = PBXGroup;
+			children = (
+				2B7843341BCB0B5B00D46A2B /* beater_head_00.png */,
+				2B7843351BCB0B5B00D46A2B /* beater_head_01.png */,
+				2B7843361BCB0B5B00D46A2B /* beater_head_02.png */,
+				2B7843371BCB0B5B00D46A2B /* beater_head_03.png */,
+				2B7843381BCB0B5B00D46A2B /* beater_head_04.png */,
+				2B7843391BCB0B5B00D46A2B /* beater_head_05.png */,
+				2B78433A1BCB0B5B00D46A2B /* beater_head_06.png */,
+				2B78433B1BCB0B5B00D46A2B /* beater_head_07.png */,
+				2B78433C1BCB0B5B00D46A2B /* beater_head_08.png */,
+				2B78433D1BCB0B5B00D46A2B /* beater_head_09.png */,
+			);
+			name = Heads;
+			sourceTree = "<group>";
+		};
+		2B7843761BCB0B9400D46A2B /* Mouths */ = {
+			isa = PBXGroup;
+			children = (
+				2B78433E1BCB0B5B00D46A2B /* beater_mouth_00.png */,
+				2B78433F1BCB0B5B00D46A2B /* beater_mouth_01.png */,
+				2B7843401BCB0B5B00D46A2B /* beater_mouth_02.png */,
+				2B7843411BCB0B5B00D46A2B /* beater_mouth_03.png */,
+				2B7843421BCB0B5B00D46A2B /* beater_mouth_04.png */,
+				2B7843431BCB0B5B00D46A2B /* beater_mouth_05.png */,
+				2B7843441BCB0B5B00D46A2B /* beater_mouth_06.png */,
+				2B7843451BCB0B5B00D46A2B /* beater_mouth_07.png */,
+				2B7843461BCB0B5B00D46A2B /* beater_mouth_08.png */,
+				2B7843471BCB0B5B00D46A2B /* beater_mouth_09.png */,
+			);
+			name = Mouths;
+			sourceTree = "<group>";
+		};
+		2B86ECC01C08BD5200A4B205 /* PLists */ = {
+			isa = PBXGroup;
+			children = (
+				2BF46F941C0B8F1F00FD8DE2 /* BeaterDefenses.plist */,
+				2BF46F951C0B8F1F00FD8DE2 /* BeaterWeapons.plist */,
+				2BF46F961C0B8F1F00FD8DE2 /* inAppPurchases.plist */,
+				2BF46F971C0B8F1F00FD8DE2 /* ProductIDs.plist */,
+			);
+			name = PLists;
+			sourceTree = "<group>";
+		};
+		2BD1FE541C020B6300F76028 /* Beater Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B7A5EAC1C077F8F00CAE6D1 /* SHBeater.h */,
+				2B7A5EAD1C077F8F00CAE6D1 /* SHBeater.m */,
+				2BB1EC7F1C36CD790059F3D6 /* SHDefense.h */,
+				2BB1EC801C36CD790059F3D6 /* SHDefense.m */,
+				2BB1EC7C1C36CD660059F3D6 /* SHWeapon.h */,
+				2BB1EC7D1C36CD660059F3D6 /* SHWeapon.m */,
+			);
+			name = "Beater Classes";
+			sourceTree = "<group>";
+		};
+		2BFB11291B5F544E0068E6A3 = {
+			isa = PBXGroup;
+			children = (
+				2BFB11601B5F54FB0068E6A3 /* StoreKit.framework */,
+				2BFB115E1B5F54990068E6A3 /* GameKit.framework */,
+				2BFB11341B5F544E0068E6A3 /* Battle-Beater */,
+				2BFB11511B5F544E0068E6A3 /* Battle-BeaterTests */,
+				2BFB11331B5F544E0068E6A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BFB11331B5F544E0068E6A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BFB11321B5F544E0068E6A3 /* Battle-Beater.app */,
+				2BFB114E1B5F544E0068E6A3 /* Battle-BeaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BFB11341B5F544E0068E6A3 /* Battle-Beater */ = {
+			isa = PBXGroup;
+			children = (
+				2B86ECC01C08BD5200A4B205 /* PLists */,
+				2BD1FE541C020B6300F76028 /* Beater Classes */,
+				2B138D9B1BD2820600F77D47 /* UI Classes */,
+				2BFB11391B5F544E0068E6A3 /* AppDelegate.h */,
+				2BFB113A1B5F544E0068E6A3 /* AppDelegate.m */,
+				2BFB113C1B5F544E0068E6A3 /* FirstViewController.h */,
+				2BFB113D1B5F544E0068E6A3 /* FirstViewController.m */,
+				2BFB113F1B5F544E0068E6A3 /* SecondViewController.h */,
+				2BFB11401B5F544E0068E6A3 /* SecondViewController.m */,
+				2B00A6461BC1AE5B0001690C /* SettingsViewController.h */,
+				2B00A6471BC1AE5B0001690C /* SettingsViewController.m */,
+				2BFB11421B5F544E0068E6A3 /* Main-v6.storyboard */,
+				2B7843771BCB0F7E00D46A2B /* Icon.png */,
+				2BFB11451B5F544E0068E6A3 /* bbicon0144.png */,
+				2BFB11471B5F544E0068E6A3 /* LaunchScreen.xib */,
+				2BFB11351B5F544E0068E6A3 /* Beater View Files */,
+				2BFB11371B5F544E0068E6A3 /* main.m */,
+				2BFB11361B5F544E0068E6A3 /* Info.plist */,
+			);
+			path = "Battle-Beater";
+			sourceTree = "<group>";
+		};
+		2BFB11351B5F544E0068E6A3 /* Beater View Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B7843721BCB0B6500D46A2B /* Eyebrows */,
+				2B7843731BCB0B7300D46A2B /* Eyes */,
+				2B7843741BCB0B7D00D46A2B /* Hair */,
+				2B7843751BCB0B8A00D46A2B /* Heads */,
+				2B7843761BCB0B9400D46A2B /* Mouths */,
+			);
+			name = "Beater View Files";
+			sourceTree = "<group>";
+		};
+		2BFB11511B5F544E0068E6A3 /* Battle-BeaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BFB11541B5F544E0068E6A3 /* Battle_BeaterTests.m */,
+				2BFB11521B5F544E0068E6A3 /* Supporting Files */,
+			);
+			path = "Battle-BeaterTests";
+			sourceTree = "<group>";
+		};
+		2BFB11521B5F544E0068E6A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BFB11531B5F544E0068E6A3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BFB11311B5F544E0068E6A3 /* Battle-Beater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFB11581B5F544E0068E6A3 /* Build configuration list for PBXNativeTarget "Battle-Beater" */;
+			buildPhases = (
+				2BFB112E1B5F544E0068E6A3 /* Sources */,
+				2BFB112F1B5F544E0068E6A3 /* Frameworks */,
+				2BFB11301B5F544E0068E6A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Battle-Beater";
+			productName = "Battle-Beater";
+			productReference = 2BFB11321B5F544E0068E6A3 /* Battle-Beater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BFB114D1B5F544E0068E6A3 /* Battle-BeaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFB115B1B5F544E0068E6A3 /* Build configuration list for PBXNativeTarget "Battle-BeaterTests" */;
+			buildPhases = (
+				2BFB114A1B5F544E0068E6A3 /* Sources */,
+				2BFB114B1B5F544E0068E6A3 /* Frameworks */,
+				2BFB114C1B5F544E0068E6A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BFB11501B5F544E0068E6A3 /* PBXTargetDependency */,
+			);
+			name = "Battle-BeaterTests";
+			productName = "Battle-BeaterTests";
+			productReference = 2BFB114E1B5F544E0068E6A3 /* Battle-BeaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BFB112A1B5F544E0068E6A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Tim Stever";
+				TargetAttributes = {
+					2BFB11311B5F544E0068E6A3 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 4EGTXH9T7S;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					2BFB114D1B5F544E0068E6A3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2BFB11311B5F544E0068E6A3;
+					};
+				};
+			};
+			buildConfigurationList = 2BFB112D1B5F544E0068E6A3 /* Build configuration list for PBXProject "Battle-Beater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BFB11291B5F544E0068E6A3;
+			productRefGroup = 2BFB11331B5F544E0068E6A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BFB11311B5F544E0068E6A3 /* Battle-Beater */,
+				2BFB114D1B5F544E0068E6A3 /* Battle-BeaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BFB11301B5F544E0068E6A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7843621BCB0B5B00D46A2B /* beater_head_04.png in Resources */,
+				2B7843571BCB0B5B00D46A2B /* beater_hair_03.png in Resources */,
+				2B7843711BCB0B5B00D46A2B /* beater_mouth_09.png in Resources */,
+				2B7843601BCB0B5B00D46A2B /* beater_head_02.png in Resources */,
+				2B7843781BCB0F7E00D46A2B /* Icon.png in Resources */,
+				2B78436E1BCB0B5B00D46A2B /* beater_mouth_06.png in Resources */,
+				2B7843491BCB0B5B00D46A2B /* beater_eyebrows_01.png in Resources */,
+				2B78435A1BCB0B5B00D46A2B /* beater_hair_06.png in Resources */,
+				2B7843531BCB0B5B00D46A2B /* beater_eyes_06.png in Resources */,
+				2BF46F9B1C0B8F1F00FD8DE2 /* ProductIDs.plist in Resources */,
+				2B7843511BCB0B5B00D46A2B /* beater_eyes_04.png in Resources */,
+				2B78435C1BCB0B5B00D46A2B /* beater_hair_08.png in Resources */,
+				2B78436A1BCB0B5B00D46A2B /* beater_mouth_02.png in Resources */,
+				2B7843581BCB0B5B00D46A2B /* beater_hair_04.png in Resources */,
+				2B78434F1BCB0B5B00D46A2B /* beater_eyes_02.png in Resources */,
+				2B7843551BCB0B5B00D46A2B /* beater_hair_01.png in Resources */,
+				2B78434E1BCB0B5B00D46A2B /* beater_eyes_01.png in Resources */,
+				2B7843631BCB0B5B00D46A2B /* beater_head_05.png in Resources */,
+				2BFB11441B5F544E0068E6A3 /* Main-v6.storyboard in Resources */,
+				2B7843691BCB0B5B00D46A2B /* beater_mouth_01.png in Resources */,
+				2BFB11491B5F544E0068E6A3 /* LaunchScreen.xib in Resources */,
+				2B78434A1BCB0B5B00D46A2B /* beater_eyebrows_02.png in Resources */,
+				2B7843651BCB0B5B00D46A2B /* beater_head_07.png in Resources */,
+				2B7843521BCB0B5B00D46A2B /* beater_eyes_05.png in Resources */,
+				2B78435D1BCB0B5B00D46A2B /* beater_hair_09.png in Resources */,
+				2B78434B1BCB0B5B00D46A2B /* beater_eyebrows_03.png in Resources */,
+				2B7843701BCB0B5B00D46A2B /* beater_mouth_08.png in Resources */,
+				2B78436C1BCB0B5B00D46A2B /* beater_mouth_04.png in Resources */,
+				2B78435F1BCB0B5B00D46A2B /* beater_head_01.png in Resources */,
+				2BFB11461B5F544E0068E6A3 /* bbicon0144.png in Resources */,
+				2BF46F991C0B8F1F00FD8DE2 /* BeaterWeapons.plist in Resources */,
+				2B78434C1BCB0B5B00D46A2B /* beater_eyebrows_04.png in Resources */,
+				2B7843661BCB0B5B00D46A2B /* beater_head_08.png in Resources */,
+				2B78435B1BCB0B5B00D46A2B /* beater_hair_07.png in Resources */,
+				2B78435E1BCB0B5B00D46A2B /* beater_head_00.png in Resources */,
+				2B78436F1BCB0B5B00D46A2B /* beater_mouth_07.png in Resources */,
+				2B7843541BCB0B5B00D46A2B /* beater_hair_00.png in Resources */,
+				2BF46F9A1C0B8F1F00FD8DE2 /* inAppPurchases.plist in Resources */,
+				2BF46F981C0B8F1F00FD8DE2 /* BeaterDefenses.plist in Resources */,
+				2B78434D1BCB0B5B00D46A2B /* beater_eyes_00.png in Resources */,
+				2B7843671BCB0B5B00D46A2B /* beater_head_09.png in Resources */,
+				2B7843481BCB0B5B00D46A2B /* beater_eyebrows_00.png in Resources */,
+				2B7843591BCB0B5B00D46A2B /* beater_hair_05.png in Resources */,
+				2B7843641BCB0B5B00D46A2B /* beater_head_06.png in Resources */,
+				2B7843501BCB0B5B00D46A2B /* beater_eyes_03.png in Resources */,
+				2B7843561BCB0B5B00D46A2B /* beater_hair_02.png in Resources */,
+				2B7843681BCB0B5B00D46A2B /* beater_mouth_00.png in Resources */,
+				2B78436D1BCB0B5B00D46A2B /* beater_mouth_05.png in Resources */,
+				2B7843611BCB0B5B00D46A2B /* beater_head_03.png in Resources */,
+				2B78436B1BCB0B5B00D46A2B /* beater_mouth_03.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFB114C1B5F544E0068E6A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BFB112E1B5F544E0068E6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B138D9E1BD2825300F77D47 /* SHBeaterViewButton.m in Sources */,
+				2BB1EC7E1C36CD660059F3D6 /* SHWeapon.m in Sources */,
+				2BFB11411B5F544E0068E6A3 /* SecondViewController.m in Sources */,
+				2BFB113B1B5F544E0068E6A3 /* AppDelegate.m in Sources */,
+				2B00A6481BC1AE5B0001690C /* SettingsViewController.m in Sources */,
+				2B9435CD1BC92B6700C60713 /* EditBeaterViewController.m in Sources */,
+				2B7A5EAE1C077F8F00CAE6D1 /* SHBeater.m in Sources */,
+				2BFB113E1B5F544E0068E6A3 /* FirstViewController.m in Sources */,
+				2BFB11381B5F544E0068E6A3 /* main.m in Sources */,
+				2BB1EC811C36CD790059F3D6 /* SHDefense.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BFB114A1B5F544E0068E6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFB11551B5F544E0068E6A3 /* Battle_BeaterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BFB11501B5F544E0068E6A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BFB11311B5F544E0068E6A3 /* Battle-Beater */;
+			targetProxy = 2BFB114F1B5F544E0068E6A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BFB11421B5F544E0068E6A3 /* Main-v6.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B6FCDF51B7A1B9400458BF3 /* en */,
+			);
+			name = "Main-v6.storyboard";
+			sourceTree = "<group>";
+		};
+		2BFB11471B5F544E0068E6A3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BFB11481B5F544E0068E6A3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BFB11561B5F544E0068E6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BFB11571B5F544E0068E6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BFB11591B5F544E0068E6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Battle-Beater/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grumgrum.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2BFB115A1B5F544E0068E6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Battle-Beater/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grumgrum.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		2BFB115C1B5F544E0068E6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Battle-BeaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grumgrum.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battle-Beater.app/Battle-Beater";
+			};
+			name = Debug;
+		};
+		2BFB115D1B5F544E0068E6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Battle-BeaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grumgrum.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Battle-Beater.app/Battle-Beater";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BFB112D1B5F544E0068E6A3 /* Build configuration list for PBXProject "Battle-Beater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFB11561B5F544E0068E6A3 /* Debug */,
+				2BFB11571B5F544E0068E6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BFB11581B5F544E0068E6A3 /* Build configuration list for PBXNativeTarget "Battle-Beater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFB11591B5F544E0068E6A3 /* Debug */,
+				2BFB115A1B5F544E0068E6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BFB115B1B5F544E0068E6A3 /* Build configuration list for PBXNativeTarget "Battle-BeaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BFB115C1B5F544E0068E6A3 /* Debug */,
+				2BFB115D1B5F544E0068E6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BFB112A1B5F544E0068E6A3 /* Project object */;
+}
